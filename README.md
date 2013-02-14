@@ -13,13 +13,14 @@ Installation
 I assumed that you have Vagrant environment already, or if you don't have one yet, you can download and run [vagrant-lamp](https://github.com/paolooo/vagrant-lamp).
     
     
-<b>On git root or toplevel directory</b> run the following.   
+<b>On git root or toplevel directory</b> run the following.  
+
 If you are using my [vagrant-lamp](http://github.com/paolooo/vagrant-lamp)    
 
 * `cd puppet`   
+* `git submodule add https://github.com/paolooo/puppet-laravel.git modules/laravel`
 
-* `git submodule add https://github.com/paolooo/puppet-laravel.git modules/laravel`    
-Or, if you're not using [vagrant-lamp](http://github.com/paolooo/vagrant-lamp) and just your git repo you can do the ff command.
-`git submodule add https://github.com/paolooo/puppet-laravel.git puppet/modules/laravel`
+    
+Or, if you're not using [vagrant-lamp](http://github.com/paolooo/vagrant-lamp) and just your git repo you can do the ff command.    
 
-* `git submodule update`
+* `git submodule add https://github.com/paolooo/puppet-laravel.git puppet/modules/laravel`
