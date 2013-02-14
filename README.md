@@ -1,4 +1,4 @@
 puppet-laravel
 ==============
 
-Puppet Module for PHP Laravel Framework
+Puppet Module for the latest version of Laravel - PHP Framework.
