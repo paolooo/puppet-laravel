@@ -20,10 +20,6 @@ If you are using my [vagrant-lamp](http://github.com/paolooo/vagrant-lamp)
 * `cd puppet`   
 * `git submodule add https://github.com/paolooo/puppet-laravel.git modules/laravel`
 
-Or, using `-f`
-
-* `git submodule add -f https://github.com/paolooo/puppet-laravel.git puppet/modules/laravel`
-    
 Or, if you're not using [vagrant-lamp](http://github.com/paolooo/vagrant-lamp) and just your git repo you can do the ff command.    
 
-* `git submodule add https://github.com/paolooo/puppet-laravel.git puppet/modules/laravel`
+* `git submodule add https://github.com/paolooo/puppet-laravel.git extras/modules/laravel`
