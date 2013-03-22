@@ -2,7 +2,7 @@ class laravel (
   $root = $docroot
 ) {
   
-  package { "unzip" : ensure => 'installed' }
+  #package { "unzip" : ensure => 'installed' }
 
   file { "${root}":
     ensure  => 'directory'
