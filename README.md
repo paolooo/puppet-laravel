@@ -22,3 +22,11 @@ If you are using my [vagrant-lamp](http://github.com/paolooo/vagrant-lamp)
 Or, if you're not using [vagrant-lamp](http://github.com/paolooo/vagrant-lamp) and just your git repo you can do the ff command.    
 
 * `git submodule add https://github.com/paolooo/puppet-laravel.git modules/laravel`
+
+
+#### Adding laravel to your manifest file
+
+`$ vim puppet/manifests/init.pp`
+
+At line 40, add the ff line:
+`include laravel`
