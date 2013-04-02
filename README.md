@@ -30,3 +30,10 @@ Or, if you're not using [vagrant-lamp](http://github.com/paolooo/vagrant-lamp) a
 
 At line 40, add the ff line:
 `include laravel`
+
+
+
+Bash Script
+-----------
+
+You can also use my bash script to download laravel 4 - https://gist.github.com/paolooo/5292362 - Check it out!
